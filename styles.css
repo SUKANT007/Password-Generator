@@ -1,0 +1,89 @@
+body {
+  background-color: #3b3b98;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Muli", sans-serif;
+}
+
+.container {
+  background-color: #23235b;
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+}
+
+.char-amount-container {
+  display: flex;
+  align-items: center;
+}
+
+.number-input {
+  width: 2rem;
+}
+
+.password-display {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
+  height: 1.5rem;
+  width: 380px;
+  border-radius: 0.5rem;
+  align-items: center;
+  position: relative;
+  margin: 1rem;
+}
+
+.copy {
+  font-size: 15px;
+  right: 5px;
+  height: 40px;
+  width: 3.8rem;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 0.5rem;
+  border: none;
+}
+.copy:hover {
+  background-color: #b491c8;
+}
+
+.password-display #result {
+  word-break: break-all;
+}
+
+.btn {
+  grid-column: span 2;
+  color: #fff;
+  background-color: #3b3b98;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+.btn:hover {
+  background-color: #b491c8;
+}
